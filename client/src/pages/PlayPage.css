@@ -1,6 +1,6 @@
 .custom-background {
   min-height: 100vh;
-  background-image: url("../../public/images/bryceyoung.jpg");
+  background-image: url("../../public/images/A14.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@
 .progress-fill {
   height: 100%;
   width: calc((100% / var(--max-progress)) * var(--current-progress));
-  background-color: #fcffff;
+  background-color: #00d1b2;
   transition: width 0.3s ease-in-out;
 }
 

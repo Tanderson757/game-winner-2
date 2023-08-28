@@ -72,7 +72,7 @@ const SavedCards = () => {
       <section className="hero is-bold is-small">
         <div className="hero-body">
           <div className="container">
-            <h1 className="title has-text-black">Viewing saved Gamewinning tips!</h1>
+            <h1 className="title has-text-black">Viewing saved Calms!</h1>
           </div>
         </div>
       </section>
@@ -101,7 +101,7 @@ const SavedCards = () => {
                   ) : null}
                   <div className="card-content">
                     <p className="title is-5">{card.title}</p>
-                    <p className="subtitle is-6"> {card.date}</p>
+                    <p className="subtitle is-6">Date: {card.date}</p>
                     <p>{card.description}</p>
                   </div>
                   <footer className="card-footer">
@@ -109,7 +109,7 @@ const SavedCards = () => {
                       className="button is-success is-fullwidth"
                       onClick={() => handleDeleteCard(card.cardId)}
                     >
-                      Delete this Tip!
+                      Delete this Calm!
                     </button>
                   </footer>
                 </div>

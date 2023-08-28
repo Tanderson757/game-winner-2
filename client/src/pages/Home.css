@@ -11,25 +11,25 @@
 
 h1 {
   font-size: 12em; 
-  color: #ffffff; 
+  color: #f5deb3; 
   font-family: 'Playfair Display', serif;
 }
 
 h2 {
   font-size: 3em;
-  color: #000000;
+  color: #f5deb3;
   font-family: 'Playfair Display', serif;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   h1 {
       font-size: 7em;
   }
 }
 
 
-@media (max-width: 60px) {
+@media (max-width: 480px) {
   h1 {
       font-size: 5em; 
   }

@@ -58,7 +58,7 @@ const SignupForm = ({ handleModalClose }) => {
     <div className="box">
       {showAlert && (
         <div className="notification is-danger">
-          Wrong Play! Something went wrong with your signup!
+          Something went wrong with your signup!
         </div>
       )}
       <form noValidate onSubmit={handleFormSubmit}>
@@ -124,7 +124,7 @@ const SignupForm = ({ handleModalClose }) => {
           type="submit"
           disabled={!(userFormData.username && userFormData.email && userFormData.password)}
         >
-          Touchdown!
+          Submit
         </button>
       </form>
     </div>

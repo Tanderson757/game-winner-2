@@ -174,7 +174,7 @@ const PlayPage = () => {
   return (
     <>
       <div className="custom-background">
-        {/* <img src="../../public/images/Skyview.jpg"> */}
+        {/* <img src="../../public/images/forest.jpg"> */}
 
         {/* Goal input box */}
         <div className="container">
@@ -183,7 +183,7 @@ const PlayPage = () => {
               <div className="box has-background-link">
                 <div className="field ">
                   <label htmlFor="goal" className="label has-text-white">
-                    You win your league yet?
+                    How far are you willing to go?
                   </label>
                   <div className="control">
                     <input
@@ -293,7 +293,7 @@ const PlayPage = () => {
                 <div className="box">
                   <div className="content">
                     <p>
-                      To start your triump to victory, please search for tips
+                      To start your self-care routine, please search for tips
                       and save them. You can search for tips{" "}
                       <Link to="/">here</Link>.
                     </p>

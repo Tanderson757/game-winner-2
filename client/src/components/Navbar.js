@@ -37,10 +37,10 @@ const AppNavbar = () => {
           </div>
           <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
             <div className="navbar-end">
-              <Link to="/search-cards" className="navbar-item button hover is-success is-medium is-rounded">Search For tips</Link>
+              <Link to="/search-cards" className="navbar-item button hover is-success is-medium is-rounded">Search For Game Winning Tips</Link>
               {authService.loggedIn() ? (
                 <>
-                  <Link to="/saved" className="navbar-item button hover is-success is-medium is-rounded">See Your Gamewinning tips</Link>
+                  <Link to="/saved" className="navbar-item button hover is-success is-medium is-rounded">See Your Tips</Link>
                   <Link to="/play" className="navbar-item button hover is-success is-medium is-rounded">Play</Link>
                   <button className="navbar-item button hover is-success is-medium is-rounded" onClick={authService.logout}>Logout</button>
                 </>

@@ -152,7 +152,7 @@ const SearchCards = () => {
       <section className="hero is-bold is-small">
         <div className="hero-body">
           <div className="container">
-            <h1 className="title has-text-white">Game Winning Tips!</h1>
+            <h1 className="title has-text-white">Search for Game Winning Tips!</h1>
             <form onSubmit={handleFormSubmit}>
               <div className="columns">
                 <div className="column is-8">
@@ -162,7 +162,7 @@ const SearchCards = () => {
                     onChange={(e) => setSearchInput(e.target.value)}
                     type="text"
                     className="input is-large"
-                    placeholder="Search for a Game Winning Tip!"
+                    placeholder="Search for a Calm"
                   />
                 </div>
                 <div className="column is-4">
@@ -203,7 +203,7 @@ const SearchCards = () => {
         <h2 className="subtitle is-4 mt-5 has-text-white has-text-weight-bold">
           {searchedCards.length
             ? `Viewing ${searchedCards.length} results:`
-            : "Search for a Game Winnig Tip to begin"}
+            : "Search for a Calm to begin"}
         </h2>
         <div className="columns is-multiline">
           {searchedCards.length > 0
@@ -223,7 +223,7 @@ const SearchCards = () => {
                       ) : null}
                       <div className="card-content">
                         <p className="title is-5">{card.title}</p>
-                        <p className="subtitle is-6">Date: {card.date}</p>
+                        <p className="subtitle is-6"> {card.date}</p>
                         <p>{card.description}</p>
                         {authService.loggedIn() && (
                           <button
@@ -239,7 +239,7 @@ const SearchCards = () => {
                             {savedCardIds?.some(
                               (savedCardId) => savedCardId === card.cardId
                             )
-                              ? "Tip aved!"
+                              ? "Tip Saved!"
                               : "Save this Tip!"}
                           </button>
                         )}

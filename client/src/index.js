@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { ApolloProvider } from "@apollo/client";
 import { BrowserRouter as Router } from "react-router-dom";
-// changed to bulma - Sean
+// changed to bulma from bootstrap
 import 'bulma/css/bulma.min.css';
 import "./index.css";
 import App from "./App";

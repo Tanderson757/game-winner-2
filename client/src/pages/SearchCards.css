@@ -1,0 +1,46 @@
+/* Existing styles */
+
+body {
+    background-image: url('../../public/images/Skyview.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.custom-card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px; 
+    background-color: rgba(255, 247, 247, 0.8); 
+    overflow: hidden;
+    transition: transform 0.3s; /* Add a transition for smooth animation */
+}
+
+.custom-card:hover {
+    transform: perspective(1000px) rotateX(8deg); /* Apply a 3D rotate effect on hover */
+}
+
+.custom-card .card-image {
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.custom-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.custom-card .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-grow: 1;
+    opacity: 8; /* Hide the content initially */
+    transition: opacity 0.3s; /* Add a transition for smooth fade-in effect */
+}
+
+.custom-card:hover .card-content {
+    opacity: 1; /* Show the content on hover */
+}

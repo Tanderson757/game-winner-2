@@ -18,7 +18,7 @@ Welcome to GameWinner, your ultimate companion for mastering the art of fantasy 
 
 1. Clone this repository to your local machine.
 
-2. Navigate to the `game-winner-app` directory.
+2. Navigate to the `game-winner-2` directory.
 
 3. Install the required dependencies using `npm install`.
 
